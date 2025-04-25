@@ -1,15 +1,8 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "src/.vuepress/dist/**",
-      "use": "@vercel/static"
-    }
-  ],
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/$1"
+      "source": "/bing/(.*)",
+      "destination": "/api/proxy"
     }
   ]
 }
