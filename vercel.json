@@ -1,17 +1,4 @@
 {
-  "rewrites": [
-    {
-      "source": "/bing/(.*)",
-      "destination": "/api/proxy"
-    }
-  ]
-  "version": 2,
-  "builds": [
-    {
-      "src": "*.js",
-      "use": "@vercel/node"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
